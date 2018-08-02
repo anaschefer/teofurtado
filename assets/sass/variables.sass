@@ -1,0 +1,37 @@
+// COLOURS
+$white: #ffffff
+$black: #000000
+$accent: #0000ff
+
+// MEDIA QUERY MIXINS
+@mixin small
+  @media only screen and (min-width: 768px)
+    @content
+
+@mixin small-under
+  @media only screen and (max-width: 767px)
+    @content
+
+@mixin medium
+  @media only screen and (min-width: 992px)
+    @content
+
+@mixin medium-under
+  @media only screen and (max-width: 991px)
+    @content
+
+@mixin large
+  @media only screen and (min-width: 1300px)
+    @content
+
+@mixin x-large
+  @media only screen and (min-width: 1600px)
+    @content
+
+@mixin x-x-large
+  @media only screen and (min-width: 1900px)
+    @content
+
+@mixin x-x-x-large
+  @media only screen and (min-width: 2100px)
+    @content
