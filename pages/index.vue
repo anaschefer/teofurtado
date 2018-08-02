@@ -21,7 +21,9 @@
             Ana Schefer
           </a>
           on multidisciplinary projects, including the 
-          <span :class="$style.project">Travelogue Summer School</span>
+          <span :class="$style.project">
+            Travelogue Summer School
+          </span>
           and the publication
           <span :class="$style.project">Project&nbsp;Paper</span>.
         </p>
