@@ -8,7 +8,7 @@
 
         <p :class="$style.para">
           <span class="fc-u">Teo Furtado</span>
-          is a graphic designer based in London and is currently a designer at
+          is a graphic designer based in London and is currently a senior designer at
           <a
           href="https://zak.group/"
           target="_blank"
@@ -40,8 +40,8 @@
 
         <aside :class="$style.last">
           <div>
-            <a href="mailto:hello@teofurtado.com">
-              hello@teofurtado.com</a>
+            <a href="mailto:teojafo@gmail.com">
+              teojafo@gmail.com</a>
           </div>
           <div>
             <span>+44(0)787990259</span>
